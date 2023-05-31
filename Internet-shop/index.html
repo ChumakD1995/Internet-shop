@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work26</title>
+    <link rel="stylesheet" href="./app.css">
+    <link rel="icon" href="./prapor.jpg">
+</head>
+<body>
+    <div id="categories">
+        <h2>Категорії</h2>
+        <ul id="category-list">
+            <li onclick="showProducts('Електроніка')">Електроніка</li>
+            <li onclick="showProducts('Одяг')">Одяг</li>
+            <li onclick="showProducts('Книги')">Книги</li>
+        </ul>
+    </div>
+    
+    <div id="products">
+        <h2>Товари</h2>
+        <ul id="product-list"></ul>
+    </div>
+    
+    <div id="product-info">
+        <h2>Інформація про товар</h2>
+        <div id="product-details"></div>
+        <button id="buy-button" onclick="buyProduct()">Купити</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
